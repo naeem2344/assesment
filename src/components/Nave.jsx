@@ -6,11 +6,11 @@ const Nave = () => {
     return (
         <div className='nav-containers'>
             <ul>
-                <li>
+                {/* <li>
                     <a href={'/'}>View Model</a>
-                </li>
+                </li> */}
                 <li>
-                    <a href={'/render'}>Upload 3D model</a>
+                    <a href={'/'}>Upload 3D model</a>
                 </li>
                 <li>
                     <a href={'/model'}>Model viwer</a>

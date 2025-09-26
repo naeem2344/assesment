@@ -14,8 +14,8 @@ const App = () => {
       < Nave />
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route path='/' element={<UploadModel />} />
-          <Route path='/model' element={<ModelViwer />} />
+          {/* <Route path='/' element={<UploadModel />} /> */}
+          <Route path='/' element={<ModelViwer />} />
           <Route path='/render' element={
             <div className='app_container'>
             <ThreeModel />
