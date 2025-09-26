@@ -6,9 +6,9 @@ import { atom, useAtom } from 'jotai'
 import { EffectComposer, Outline } from '@react-three/postprocessing'
 export const meshAtom = atom(null);
 
-const ThreeModel = ({ texture }) => {
-
+const ThreeModel = () => {
   const [objData, setObjData] = useAtom(meshAtom);
+
 
   return (
     <div style={{ width: '100%', height: '90vh' }}>
@@ -21,7 +21,7 @@ const ThreeModel = ({ texture }) => {
         <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
 
         <Suspense fallback={null}>
-          <ModelViwer texture={texture} />
+          <ModelViwer />
           <Environment preset="city" />
           <ContactShadows
             position={[0, -0.8, 0]}

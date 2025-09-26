@@ -7,13 +7,13 @@ const Nave = () => {
         <div className='nav-containers'>
             <ul>
                 <li>
-                    <Link to={'/'}>View Model</Link>
+                    <a href={'/'}>View Model</a>
                 </li>
                 <li>
-                    <Link to={'/render'}>Upload 3D model</Link>
+                    <a href={'/render'}>Upload 3D model</a>
                 </li>
                 <li>
-                    <Link to={'/model'}>Model viwer</Link>
+                    <a href={'/model'}>Model viwer</a>
                 </li>
             </ul>
         </div>
