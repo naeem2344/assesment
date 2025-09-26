@@ -37,7 +37,7 @@
 
 
 @media (max-width: 576px) { 
-    .model__viwer__sub__container,.app_container{
+    .model__viwer__sub__container,.app_container,.main__container{
         grid-template-columns: 1fr;
         width: 100%;
     }
