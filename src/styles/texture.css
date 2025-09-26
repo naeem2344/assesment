@@ -1,0 +1,22 @@
+.texture__container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.texture__image__container{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+.texture__image__container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.texture__image__container{
+    text-align: center;
+}

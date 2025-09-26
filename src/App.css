@@ -1,0 +1,55 @@
+.app_container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    justify-content: center;
+}
+
+.modal-content {
+    width: unset !important;
+}
+
+.model__viwer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model__viwer__sub__container {
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.discription__container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.discription__sub__container{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 576px) { 
+    .model__viwer__sub__container{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 768px) { 
+     .model__viwer__sub__container{
+        width: 100%;
+    }
+ }
+ @media (max-width: 992px) { 
+    .model__viwer__sub__container{
+        width: 80%;
+    }
+  }
