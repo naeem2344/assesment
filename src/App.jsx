@@ -16,7 +16,7 @@ const App = () => {
         <Routes>
           {/* <Route path='/' element={<UploadModel />} /> */}
           <Route path='/' element={<ModelViwer />} />
-          <Route path='/render' element={
+          <Route path='/model' element={
             <div className='app_container'>
             <ThreeModel />
             <UserInterface  />

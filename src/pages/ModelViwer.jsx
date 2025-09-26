@@ -10,6 +10,7 @@ const ModelViwer = () => {
             <div className='model__viwer__sub__container'>
                 <model-viewer
                     src="/assets/3d_model/sofa_final.glb"
+                    ios-src="/assets/3d_model/sofa_usdz.usdz"
                     alt="A 3D model"
                     auto-rotate
                     camera-controls
