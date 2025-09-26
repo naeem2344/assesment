@@ -11,7 +11,7 @@ const QRmodel = () => {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <QRCodeSVG value={'http://192.168.1.110:5173'} />
+                            <QRCodeSVG value={'https://assesment-lilac.vercel.app/model'} />
                         </div>
                     </div>
                 </div>
